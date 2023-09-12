@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BmapSubmission" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Primary Brand Color-->
+        <item name="colorPrimary">@color/yellow_light</item>
+        <item name="colorPrimaryVariant">@color/orange_light</item>
+        <item name="colorOnPrimary">@color/orange_light</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange_light</item>
+        <item name="colorSecondaryVariant">@color/orange_light</item>
+        <item name="colorOnSecondary">@color/orange_light</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        
+    </style>
+
+    <style name="aboutTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/orange_light</item>
+    </style>
+
+    <style name="detailMascotTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/orange_light</item>
+    </style>
+
+    <!--Splashscreen theme-->
+    <style name="ssTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" >@color/orange_light</item>
+    </style>
+    
+    <style name="Theme.BmapSubmission" parent="Base.Theme.BmapSubmission" />
+</resources>

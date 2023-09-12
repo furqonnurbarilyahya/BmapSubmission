@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">World Cup Mascot</string>
+    <string name="mascots_name">Nama Maskot</string>
+    <string name="detail_description">Detail Deskripsi</string>
+    <string name="about">Tentang saya</string>
+    <string name="my_name">Furqon Nurbaril Yahya</string>
+    <string name="my_email">furqonyahya1@gmail.com</string>
+    <string name="wcm">World Cup Mascot</string>
+    <string name="share">Bagikan</string>
+    <string name="description">Deskripsi</string>
+    <string name="winner">Juara</string>
+    <string name="bestplayer">Pemain Terbaik</string>
+    <string name="topscore">Top Skor</string>
+
+
+    <string-array name = "data_winner">
+        <item>Inggris</item>
+        <item>Brazil</item>
+        <item>Jerman Barat</item>
+        <item>Italia</item>
+        <item>Argentina</item>
+        <item>Jerman Barat</item>
+        <item>Brasil</item>
+        <item>Prancis</item>
+        <item>Brasil</item>
+        <item>Italia</item>
+        <item>Spanyol</item>
+        <item>Jerman</item>
+        <item>Prancis</item>
+        <item>Argentina</item>
+    </string-array>
+
+    <string-array name="data_bestplayer">
+        <item>Bobby Chartlon</item>
+        <item>Pele</item>
+        <item>Franz Beckenbauer</item>
+        <item>Paolo Rossi</item>
+        <item>Diego Maradona</item>
+        <item>Salvatore Schillaci</item>
+        <item>Romario</item>
+        <item>Ronaldo</item>
+        <item>Oliver Kahn</item>
+        <item>Zinedine Zidane</item>
+        <item>Diego Forlan</item>
+        <item>Lionel Messi</item>
+        <item>Luka Modric</item>
+        <item>Lionel Messi</item>
+    </string-array>
+
+    <string-array name="data_topscore">
+        <item>Eusebio (9 gol)</item>
+        <item>Gerd Muller (10 gol)</item>
+        <item>Grzegorz Lato (7 gol)</item>
+        <item>Paolo Rossi (6 gol)</item>
+        <item>Gary Lineker (6 gol)</item>
+        <item>Salvatore Schillaci (6 gol)</item>
+        <item>Hristo Stoichkov (6 gol) </item>
+        <item>Davor Suker (6 gol)</item>
+        <item>Ronaldo (8 gol)</item>
+        <item>Miroslav Klose (5 gol)</item>
+        <item>Thomas Muller (5 gol)</item>
+        <item>James Rodriguez (6 gol)</item>
+        <item>Harry Kane (6 gol)</item>
+        <item>Kylian Mbappe (7 gol)</item>
+    </string-array>
+
+    <string-array name="data_name">
+        <item>World Cup Willie (1966 - Inggris)</item>
+        <item>Juanito (1970 - Meksiko)</item>
+        <item>Tip dan Tap (1974 - Jerman Barat)</item>
+        <item>Naranjito (1982 - Spanyol)</item>
+        <item>Pique (1986 - Meksiko)</item>
+        <item>Ciao (1990 - Italia)</item>
+        <item>Striker (1994 - Amerika Serikat)</item>
+        <item>France Footix (1998 - Prancis)</item>
+        <item>Ato, Kaz, dan Nik (2002 - Korea Selatan dan Jepang)</item>
+        <item>Goleo VI dan Pille (2006 - Jerman)</item>
+        <item>Zakumi (2010 - Afrika Selatan)</item>
+        <item>Fuleco (2014 - Brasil)</item>
+        <item>Zabivaka (2018 - Rusia)</item>
+        <item>La eeb (2022 - Qatar)</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>World Cup Willie adalah singa berbulu cokelat dengan mata biru, topi berbentuk bola sepak, dan sebuah syal Inggris. Singa ini adalah simbol kekuatan dan kebanggaan Inggris, dengan mata birunya mencerminkan warna bendera nasional.</item>
+        <item>Juanito adalah seorang anak laki-laki dengan rambut hitam, seragam sepak bola berwarna merah, putih, dan hijau, serta sebuah sombrero. Dia menggambarkan semangat dan antusiasme anak-anak Meksiko terhadap sepak bola dan kebudayaan Meksiko.</item>
+        <item>Tip adalah bola sepak biru dengan mata dan topi merah, sementara Tap adalah bola sepak hijau dengan mata dan topi oranye. Mereka mencerminkan pertandingan sepak bola yang menyenangkan dan dinamis, dengan dua warna utama Jerman Barat pada saat itu.</item>
+        <item>Naranjito adalah jeruk berwajah senang dengan mata, mulut, dan topi sepak bola berwarna biru. Jeruk ini menggambarkan budaya Spanyol yang kaya akan jeruk dan kegembiraan dalam pertandingan sepak bola.</item>
+        <item>Pique adalah kaktus berwajah bahagia dengan bola sepak di satu tangan dan topi sombrero di kepala. Kaktus ini mencerminkan lingkungan gurun Meksiko yang kering, sementara topi sombrero adalah ikon budaya Meksiko.</item>
+        <item>Ciao adalah bola sepak berwajah manusia dengan mata, mulut, dan rambut khas Italia. Dia mengenakan topi berwarna merah, putih, dan hijau, yang merupakan warna bendera Italia. Ciao mencerminkan cinta Italia terhadap sepak bola dan kebanggaan nasional.</item>
+        <item>Striker adalah anjing dengan kostum sepak bola Amerika, dengan bintang-bintang dan strip merah, putih, dan biru. Dia juga memiliki topi koboi, mencerminkan elemen budaya Amerika Serikat.</item>
+        <item>Footix adalah ayam jantan berwajah senang dengan mata besar dan bulu berwarna biru, putih, dan merah, yang merupakan warna bendera Prancis. Nama "Footix" adalah permainan kata yang menggabungkan "foot" (sepak bola) dan "titi" (nama julukan Prancis). Ayam jantan ini melambangkan semangat juang dalam pertandingan.</item>
+        <item>Ato adalah makhluk legendaris dari budaya Korea yang dikenal sebagai "Haetae." Haetae adalah makhluk seperti singa dengan bulu seperti badak dan ekor seperti naga yang melambangkan perlindungan terhadap kebakaran. Ato adalah Haetae yang berwajah senang dengan mata merah dan tubuh berwarna biru, merah, dan putih.\n\nKaz adalah burung hantu yang mewakili Jepang. Burung hantu adalah simbol kebijaksanaan dan perlindungan dari hal-hal buruk. Kaz memiliki mata besar dan bulu berwarna merah, putih, dan hijau yang mencerminkan bendera Jepang.\n\nNik adalah bola sepak hidup dengan mata dan bibir yang ceria. Dia adalah elemen yang menghubungkan Korea Selatan dan Jepang dalam semangat persahabatan dan persatuan selama turnamen.</item>
+        <item>Goleo VI adalah karakter manusia dengan kepala singa dan tubuh manusia yang mengenakan pakaian sepak bola Jerman. Pille adalah bola sepak dengan wajah manusia. Goleo VI adalah maskot utama, sementara Pille adalah bola sepak hidup yang menjadi sahabatnya. Goleo VI melambangkan kekuatan dan semangat Jerman dalam sepak bola.</item>
+        <item>Zakumi adalah seekor leopard berwajah senang dengan mata hijau dan bulu berwarna hijau dan emas. Nama "Zakumi" adalah kombinasi dari "Za" (kode negara Afrika Selatan) dan "kumi" (bahasa Zulu yang berarti "sepuluh"), merujuk pada tahun 2010. Zakumi adalah simbol keanekaragaman alam dan budaya Afrika Selatan.</item>
+        <item>Fuleco adalah seekor armadillo berwajah senang dengan mata dan cangkang berwarna biru dan hijau. Nama "Fuleco" adalah gabungan dari kata "Futebol" (sepak bola) dan "Ecologia" (ekologi), yang mencerminkan perhatasan terhadap lingkungan alam Brasil.</item>
+        <item>Zabivaka adalah serigala berwajah senang dengan mata dan bulu putih dan biru. Dia mengenakan kostum sepak bola berwarna putih, biru, dan merah. Nama "Zabivaka" berasal dari kata Rusia "забивать" (zabivat), yang berarti "mencetak gol." Zabivaka adalah simbol semangat persahabatan dan persatuan selama Piala Dunia di Rusia.</item>
+        <item>La eeb adalah sosok hantu yang ceria dan penuh semangat. Ia mengenakan kostum putih dengan hiasan berwarna emas dan hijau. La eeb melambangkan budaya dan semangat sepak bola di Timur Tengah. La eeb digambarkan sebagai sosok yang suka bermain dan menyebarkan kegembiraan. Ia juga memiliki kemampuan untuk melayang, yang melambangkan impian dan harapan para pemain sepak bola. La eeb berharap dapat menginspirasi para pemain dan penggemar sepak bola di seluruh dunia.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://worldcupwillie.com/gallery_gen/3b6c558eaa31c2c01a1d5b2cfd6dbe04_190x298.gif</item>
+        <item>https://i.pinimg.com/originals/a7/bb/94/a7bb94c5cef9e1d62a2ef781c7113a9f.jpg</item>
+        <item>https://thumb.spotlight.id/image/2022/11/08/ebd5cb29b418c1341bc4394b7346599b-Tip-dan-Tap-(gazeta.ru).jpg</item>
+        <item>https://thumb.spotlight.id/image/2022/11/08/bd8425e77ae08eab5d4a9fdb262be5fc-Naranjito-(gazeta.ru).jpg</item>
+        <item>https://thumb.spotlight.id/image/2022/11/08/26784e8c93b1ccb88578f4bbc201af1e-Pique-(gazeta.ru).jpg</item>
+        <item>https://thumb.spotlight.id/image/2022/11/08/526a5c509f4271eb4eae4d691d3ac6bb-Ciao-(gazeta.ru).jpg</item>
+        <item>https://cdns.klimg.com/bola.net/galeri/maskot_piala_dunia/p/maskot_piala_dunia-20100610-008-bola.net.jpg</item>
+        <item>https://thumb.spotlight.id/image/2022/11/08/625a2dc4d6e18890f15b4da105cc69e7-Footix-(gazeta.ru).jpg</item>
+        <item>https://thumb.spotlight.id/image/2022/11/08/093f9026a5caa63f97e3a25748a4cb66-The-Spheriks-(gazeta.ru).jpg</item>
+        <item>https://thumb.spotlight.id/image/2022/11/08/7a228ef8555d5ce0b774a612dc666823-Goleo-(gazeta.ru).jpg</item>
+        <item>https://thumb.spotlight.id/image/2022/11/08/44230c4de02860fce0b8ffb33eec14d7-Zakumi-(gazeta.ru).jpg</item>
+        <item>https://thumb.spotlight.id/image/2022/11/08/1eb2b5e662811ebb04fce0de6adda0a0-Fuleco-(gazeta.ru).jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/e/e0/Zabivaka_%28mascot%29.jpg</item>
+        <item>https://kaltengtoday.com/wp-content/uploads/2022/04/Laeeb-maskot-Piala-Dunia-2022-sportingnews.com_.jpg</item>
+    </string-array>
+</resources>

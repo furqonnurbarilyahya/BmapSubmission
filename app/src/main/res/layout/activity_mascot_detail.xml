@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light"
+    tools:context=".MascotDetail">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/dt_img_photo"
+            android:layout_width="187dp"
+            android:layout_height="228dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/dt_tv_winner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/winner"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/dt_img_photo"
+            app:layout_constraintTop_toTopOf="@+id/dt_img_photo" />
+
+        <TextView
+            android:id="@+id/dt_tv_cwinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            app:layout_constraintEnd_toEndOf="@+id/dt_tv_winner"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/dt_tv_winner"
+            app:layout_constraintTop_toBottomOf="@+id/dt_tv_winner"
+            tools:text="@string/winner" />
+
+        <TextView
+            android:id="@+id/dt_tv_bestpplayer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/bestplayer"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/dt_tv_cwinner"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/dt_tv_cwinner"
+            app:layout_constraintTop_toBottomOf="@+id/dt_tv_cwinner" />
+
+        <TextView
+            android:id="@+id/dt_tv_cbestplayer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            app:layout_constraintEnd_toEndOf="@+id/dt_tv_bestpplayer"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/dt_tv_bestpplayer"
+            app:layout_constraintTop_toBottomOf="@+id/dt_tv_bestpplayer"
+            tools:text="@string/bestplayer" />
+
+        <TextView
+            android:id="@+id/dt_tv_detail_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/gray_dark"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/dt_tvDescription"
+            app:layout_constraintStart_toStartOf="@+id/dt_tvDescription"
+            app:layout_constraintTop_toBottomOf="@+id/dt_tvDescription"
+            tools:text="@string/detail_description" />
+
+        <TextView
+            android:id="@+id/dt_tv_mascots_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:textAlignment="center"
+            android:textColor="@color/blue_dark"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dt_img_photo"
+            tools:text="@string/mascots_name" />
+
+        <TextView
+            android:id="@+id/dt_tvDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="@string/description"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/dt_tv_mascots_name"
+            app:layout_constraintStart_toStartOf="@+id/dt_tv_mascots_name"
+            app:layout_constraintTop_toBottomOf="@+id/dt_tv_mascots_name" />
+
+        <TextView
+            android:id="@+id/dt_tv_topscore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/topscore"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/dt_tv_cbestplayer"
+            app:layout_constraintStart_toStartOf="@+id/dt_tv_cbestplayer"
+            app:layout_constraintTop_toBottomOf="@+id/dt_tv_cbestplayer"/>
+
+        <TextView
+            android:id="@+id/dt_tv_ctopscore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toBottomOf="@+id/dt_img_photo"
+            app:layout_constraintEnd_toEndOf="@+id/dt_tv_topscore"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/dt_tv_topscore"
+            app:layout_constraintTop_toBottomOf="@+id/dt_tv_topscore"
+            tools:text="@string/topscore" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
